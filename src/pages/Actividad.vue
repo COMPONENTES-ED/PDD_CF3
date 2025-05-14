@@ -18,8 +18,8 @@
         <div class="col-12 col-md-8 col-lg-9">
           <div class="titulo-segundo">
             <h2>
-              Prueba de conocimientos sobre análisis estadístico de datos y
-              generación de gráficos.
+              Prueba de conocimientos sobre Análisis estadístico de datos y
+              generación de gráficos
             </h2>
           </div>
           <p class="mb-4">

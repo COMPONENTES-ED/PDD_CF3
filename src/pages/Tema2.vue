@@ -12,13 +12,12 @@
         </div>
         <div class="col pt-lg-0 pt-md-4">
           <p class="mb-0">
-            Las <b>medidas de dispersi&oacute;n</b> son herramientas
-            estad&iacute;sticas que describen qu&eacute; tan dispersos o
-            esparcidos est&aacute;n los datos en un conjunto. Estas medidas
-            indican la variabilidad de los datos alrededor de una medida de
-            tendencia central, como la media o la mediana. Cuanto mayor sea la
-            dispersi&oacute;n, m&aacute;s lejos estar&aacute;n los datos de la
-            tendencia central, lo que refleja una mayor variabilidad en el
+            Las <b>medidas de dispersion</b> son herramientas estadísticas que
+            describen quí tan dispersos o esparcidos estín los datos en un
+            conjunto. Estas medidas indican la variabilidad de los datos
+            alrededor de una medida de tendencia central, como la media o la
+            mediana. Cuanto mayor sea la dispersion, mís lejos estarín los datos
+            de la tendencia central, lo que refleja una mayor variabilidad en el
             conjunto de datos.
           </p>
         </div>
@@ -27,7 +26,7 @@
         <div class="col-lg-5 my-3">
           <div class="titulo-sexto color-acento-contenido aos-init">
             <h5>Figura 2.</h5>
-            <span>Medidas de dispersi&oacute;n.</span>
+            <span>Medidas de dispersion.</span>
           </div>
           <img
             class="contions mx-auto aos-init img-t bg-img"
@@ -52,10 +51,9 @@
           <h2>2.1&#x9;Rango</h2>
         </div>
         <p>
-          El <b>rango</b> es la diferencia entre el valor m&aacute;s alto y el
-          m&aacute;s bajo en un conjunto de datos. Es la medida de
-          dispersi&oacute;n m&aacute;s simple y se usa para describir la
-          amplitud total de los valores observados.
+          El <b>rango</b> es la diferencia entre el valor mís alto y el mís bajo
+          en un conjunto de datos. Es la medida de dispersion mís simple y se
+          usa para describir la amplitud total de los valores observados.
         </p>
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-5 col-7 my-3">
@@ -63,23 +61,34 @@
           </div>
           <div class="col-lg-7 my-3">
             <h5>Fórmula:</h5>
-            <img class="img-t mb-4" src="@/assets/curso/temas/37.png" />
+            <math
+              xmlns="http://www.w3.org/1998/Math/MathML"
+              style="font-size: 2rem"
+            >
+              <mrow>
+                <mi>R</mi>
+                <mo>=</mo>
+                <msub>
+                  <mi>x</mi>
+                  <mi>max</mi>
+                </msub>
+                <mo>−</mo>
+                <msub>
+                  <mi>x</mi>
+                  <mi>min</mi>
+                </msub>
+              </mrow>
+            </math>
             <div class="brad p-3 h-100">
               <p class="mb-3"><b>Donde:</b></p>
               <ul class="lista-ul--color fa-ul">
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
-                    <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/38.png"
-                        alt=""
-                      />
-                    </div>
+                    <div class="col-auto">x<sub>max</sub></div>
                     <div class="col">
                       <p class="mb-0">
-                        es el valor m&aacute;ximo del conjunto de datos.
+                        es el valor míximo del conjunto de datos.
                       </p>
                     </div>
                   </div>
@@ -87,16 +96,10 @@
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
-                    <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/39.png"
-                        alt=""
-                      />
-                    </div>
+                    <div class="col-auto">x<sub>min</sub></div>
                     <div class="col">
                       <p class="mb-0">
-                        es el valor m&iacute;nimo del conjunto de datos.
+                        es el valor mínimo del conjunto de datos.
                       </p>
                     </div>
                   </div>
@@ -109,17 +112,15 @@
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span class="text-white"
-                    >Es f&aacute;cil de calcular, pero es muy sensible a los
-                    valores at&iacute;picos, ya que solo depende de los
-                    extremos.</span
+                    >Es fícil de calcular, pero es muy sensible a los valores
+                    atípicos, ya que solo depende de los extremos.</span
                   >
                 </li>
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span class="text-white"
-                    >No proporciona informaci&oacute;n sobre c&oacute;mo se
-                    distribuyen los datos entre los valores m&aacute;s altos y
-                    bajos.</span
+                    >No proporciona informacion sobre como se distribuyen los
+                    datos entre los valores mís altos y bajos.</span
                   >
                 </li>
               </ul>
@@ -132,14 +133,13 @@
       </div>
       <section>
         <div id="t_2_2" class="titulo-segundo color-acento-botones">
-          <h2>2.2&#x9;Desviaci&oacute;n media</h2>
+          <h2>2.2&#x9;Desviacion media</h2>
         </div>
         <p>
-          La<b>desviaci&oacute;n media</b> es la media de las diferencias
-          absolutas entre cada valor del conjunto de datos y la media
-          aritm&eacute;tica. Proporciona una medida del promedio de la
-          dispersi&oacute;n sin considerar la direcci&oacute;n de las
-          desviaciones.
+          La<b>desviacion media</b> es la media de las diferencias absolutas
+          entre cada valor del conjunto de datos y la media aritmítica.
+          Proporciona una medida del promedio de la dispersion sin considerar la
+          direccion de las desviaciones.
         </p>
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-4 col-7 my-3">
@@ -147,11 +147,34 @@
           </div>
           <div class="col-lg-8 my-3">
             <h5>Fórmula:</h5>
-            <img
-              class="img-t mb-4"
-              src="@/assets/curso/temas/43.png"
-              alt="la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos."
-            />
+            <div
+              style="border: 2px solid green; background-color: white; display: inline-block; padding: 10px;"
+            >
+              <math
+                xmlns="http://www.w3.org/1998/Math/MathML"
+                style="font-size: 2rem"
+              >
+                <mrow>
+                  <mtext>Desviación media</mtext>
+                  <mo>=</mo>
+                  <mfrac>
+                    <mrow>
+                      <munderover>
+                        <mo>&#x2211;</mo>
+                        <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+                        <mi>n</mi>
+                      </munderover>
+                      <mo>|</mo>
+                      <msub><mi>x</mi><mi>i</mi></msub>
+                      <mo>−</mo>
+                      <mover><mi>x</mi><mo>&#xAF;</mo></mover>
+                      <mo>|</mo>
+                    </mrow>
+                    <mi>n</mi>
+                  </mfrac>
+                </mrow>
+              </math>
+            </div>
             <div class="brad p-3 h-100">
               <p class="mb-3"><b>Donde:</b></p>
               <ul class="lista-ul--color fa-ul">
@@ -159,11 +182,15 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/44.png"
-                        alt="la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos."
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <msub>
+                          <mi>x</mi>
+                          <mi>i</mi>
+                        </msub>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">es cada valor del conjunto de datos.</p>
@@ -174,14 +201,18 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/45.png"
-                        alt="la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos."
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <mover>
+                          <mi>x</mi>
+                          <mo>¯</mo>
+                        </mover>
+                      </math>
                     </div>
                     <div class="col">
-                      <p class="mb-0">es la media aritm&eacute;tica.</p>
+                      <p class="mb-0">es la media aritmítica.</p>
                     </div>
                   </div>
                 </li>
@@ -189,15 +220,16 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/46.png"
-                        alt="la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos."
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <mi>n</mi>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">
-                        es el n&uacute;mero total de observaciones.
+                        es el número total de observaciones.
                       </p>
                     </div>
                   </div>
@@ -210,9 +242,9 @@
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span
-                    >Es una medida intuitiva de la dispersi&oacute;n, pero no es
-                    tan com&uacute;n como otras medidas como la varianza o la
-                    desviaci&oacute;n est&aacute;ndar.</span
+                    >Es una medida intuitiva de la dispersion, pero no es tan
+                    común como otras medidas como la varianza o la desviacion
+                    estíndar.</span
                   >
                 </li>
                 <li class="mb-3">
@@ -220,7 +252,7 @@
                   ><span
                     >Utiliza las desviaciones absolutas, lo que evita que las
                     diferencias positivas y negativas se cancelen entre
-                    s&iacute;.</span
+                    sí.</span
                   >
                 </li>
               </ul>
@@ -238,14 +270,48 @@
         <p class="mb-5">
           La <b>varianza</b> es una medida que refleja el promedio de los
           cuadrados de las desviaciones de cada valor respecto a la media. La
-          varianza indica qu&eacute; tan dispersos est&aacute;n los datos, y es
-          una de las medidas m&aacute;s importantes en la estad&iacute;stica
-          inferencial.
+          varianza indica quí tan dispersos estín los datos, y es una de las
+          medidas mís importantes en la estadística inferencial.
         </p>
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-4 my-3 bg17 p-3 brad">
             <h5>Fórmula:</h5>
-            <img class="img-t mb-4" src="@/assets/curso/temas/47.png" />
+            <div
+              style="border: 2px solid green; background-color: white; display: inline-block; padding: 10px;"
+            >
+              <math
+                xmlns="http://www.w3.org/1998/Math/MathML"
+                style="font-size: 1.2rem"
+              >
+                <mrow>
+                  <mtext>Varianza</mtext>
+                  <mo>=</mo>
+                  <msup><mi>&#x03C3;</mi><mn>2</mn></msup>
+                  <mo>=</mo>
+                  <mfrac>
+                    <mrow>
+                      <munderover>
+                        <mo>&#x2211;</mo>
+                        <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+                        <mi>n</mi>
+                      </munderover>
+                      <msup>
+                        <mrow>
+                          <mo>(</mo>
+                          <msub><mi>x</mi><mi>i</mi></msub>
+                          <mo>−</mo>
+                          <mover><mi>x</mi><mo>¯</mo></mover>
+                          <mo>)</mo>
+                        </mrow>
+                        <mn>2</mn>
+                      </msup>
+                    </mrow>
+                    <mi>n</mi>
+                  </mfrac>
+                </mrow>
+              </math>
+            </div>
+
             <div class="brad p-3 h-100">
               <p class="mb-3"><b>Donde:</b></p>
               <ul class="lista-ul--color fa-ul">
@@ -253,11 +319,12 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/48.png"
-                        alt=""
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <msub><mi>x</mi><mi>i</mi></msub>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">es cada valor del conjunto de datos.</p>
@@ -268,14 +335,15 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/49.png"
-                        alt=""
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <mover><mi>x</mi><mo>¯</mo></mover>
+                      </math>
                     </div>
                     <div class="col">
-                      <p class="mb-0">es la media aritm&eacute;tica.</p>
+                      <p class="mb-0">es la media aritmítica.</p>
                     </div>
                   </div>
                 </li>
@@ -283,15 +351,16 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/50.png"
-                        alt=""
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <mi>n</mi>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">
-                        es el n&uacute;mero total de observaciones.
+                        es el número total de observaciones.
                       </p>
                     </div>
                   </div>
@@ -308,8 +377,8 @@
                     <i class="fas fa-check v1"> </i
                     ><span
                       >La varianza utiliza los cuadrados de las desviaciones, lo
-                      que magnifica el impacto de las observaciones m&aacute;s
-                      alejadas de la media.</span
+                      que magnifica el impacto de las observaciones mís alejadas
+                      de la media.</span
                     >
                   </li>
                 </ul>
@@ -319,10 +388,9 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"> </i
                     ><span
-                      >Es muy &uacute;til para c&aacute;lculos
-                      estad&iacute;sticos avanzados, pero su principal
-                      desventaja es que est&aacute; en unidades cuadradas, lo
-                      que puede hacer que sea dif&iacute;cil de interpretar
+                      >Es muy útil para cílculos estadísticos avanzados, pero su
+                      principal desventaja es que estí en unidades cuadradas, lo
+                      que puede hacer que sea difícil de interpretar
                       directamente.</span
                     >
                   </li>
@@ -340,15 +408,13 @@
       </div>
       <section>
         <div id="t_2_4" class="titulo-segundo color-acento-botones">
-          <h2>2.4&#x9;Desviaci&oacute;n est&aacute;ndar</h2>
+          <h2>2.4&#x9;Desviacion estíndar</h2>
         </div>
         <p class="mb-5">
-          La <b>desviaci&oacute;n est&aacute;ndar</b> es la ra&iacute;z cuadrada
-          positiva de la varianza y es quiz&aacute;s la medida de
-          dispersi&oacute;n m&aacute;s utilizada. A diferencia de la varianza,
-          la desviaci&oacute;n est&aacute;ndar est&aacute; en las mismas
-          unidades que los datos originales, lo que facilita su
-          interpretaci&oacute;n.
+          La <b>desviacion estíndar</b> es la raíz cuadrada positiva de la
+          varianza y es quizís la medida de dispersion mís utilizada. A
+          diferencia de la varianza, la desviacion estíndar estí en las mismas
+          unidades que los datos originales, lo que facilita su interpretacion.
         </p>
         <div class="row justify-content-center">
           <div class="col-lg-3 col-7 my-3">
@@ -357,7 +423,42 @@
           <div class="col-lg-5 my-3">
             <div class="bg17 p-3 brad h-100">
               <h5>Fórmula:</h5>
-              <img class="img-t mb-4" src="@/assets/curso/temas/53.png" />
+              <div
+                style="border: 2px solid green; background-color: white; display: inline-block; padding: 10px;"
+              >
+                <math
+                  xmlns="http://www.w3.org/1998/Math/MathML"
+                  style="font-size: 2rem"
+                >
+                  <mrow>
+                    <mi>&#x03C3;</mi>
+                    <mo>=</mo>
+                    <msqrt>
+                      <mfrac>
+                        <mrow>
+                          <munderover>
+                            <mo>&#x2211;</mo>
+                            <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+                            <mi>n</mi>
+                          </munderover>
+                          <msup>
+                            <mrow>
+                              <mo>(</mo>
+                              <msub><mi>x</mi><mi>i</mi></msub>
+                              <mo>−</mo>
+                              <mover><mi>x</mi><mo>¯</mo></mover>
+                              <mo>)</mo>
+                            </mrow>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mi>n</mi>
+                      </mfrac>
+                    </msqrt>
+                  </mrow>
+                </math>
+              </div>
+
               <div class="brad p-3 h-100">
                 <p class="mb-3"><b>Donde:</b></p>
                 <ul class="lista-ul--color fa-ul">
@@ -365,15 +466,16 @@
                     <i class="fas fa-check v1"> </i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/54.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem"
+                        >
+                          <mi>&#x03C3;</mi>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">
-                          es la desviaci&oacute;n est&aacute;ndar.
+                          es la desviacion estíndar.
                         </p>
                       </div>
                     </div>
@@ -382,11 +484,12 @@
                     <i class="fas fa-check v1"> </i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/55.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem"
+                        >
+                          <msub><mi>x</mi><mi>i</mi></msub>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">es cada valor del conjunto de datos.</p>
@@ -397,14 +500,15 @@
                     <i class="fas fa-check v1"> </i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/56.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem"
+                        >
+                          <mover><mi>x</mi><mo>¯</mo></mover>
+                        </math>
                       </div>
                       <div class="col">
-                        <p class="mb-0">es la media aritm&eacute;tica.</p>
+                        <p class="mb-0">es la media aritmítica.</p>
                       </div>
                     </div>
                   </li>
@@ -412,15 +516,16 @@
                     <i class="fas fa-check v1"> </i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/57.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem"
+                        >
+                          <mi>n</mi>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">
-                          es el n&uacute;mero total de observaciones.
+                          es el número total de observaciones.
                         </p>
                       </div>
                     </div>
@@ -436,22 +541,22 @@
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span
-                    >Indica qu&eacute; tan dispersos est&aacute;n los valores
-                    con respecto a la media.</span
+                    >Indica quí tan dispersos estín los valores con respecto a
+                    la media.</span
                   >
                 </li>
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span
-                    >Es f&aacute;cil de interpretar porque est&aacute; en las
-                    mismas unidades que los datos originales.</span
+                    >Es fícil de interpretar porque estí en las mismas unidades
+                    que los datos originales.</span
                   >
                 </li>
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span
-                    >Es sensible a los valores at&iacute;picos, ya que utiliza
-                    las desviaciones cuadradas.</span
+                    >Es sensible a los valores atípicos, ya que utiliza las
+                    desviaciones cuadradas.</span
                   >
                 </li>
               </ul>
@@ -464,14 +569,13 @@
       </div>
       <section>
         <div id="t_2_5" class="titulo-segundo color-acento-botones">
-          <h2>2.5&#x9;Coeficiente de variaci&oacute;n</h2>
+          <h2>2.5&#x9;Coeficiente de variacion</h2>
         </div>
         <p class="mb-5">
-          El <b>coeficiente de variaci&oacute;n (CV)</b> es una medida de
-          dispersi&oacute;n relativa que expresa la desviaci&oacute;n
-          est&aacute;ndar como un porcentaje de la media. Es &uacute;til para
-          comparar la variabilidad entre diferentes conjuntos de datos que
-          pueden tener diferentes unidades o medias.
+          El <b>coeficiente de variacion (CV)</b> es una medida de dispersion
+          relativa que expresa la desviacion estíndar como un porcentaje de la
+          media. Es útil para comparar la variabilidad entre diferentes
+          conjuntos de datos que pueden tener diferentes unidades o medias.
         </p>
         <div class="row justify-content-center bg20 brad">
           <div class="col-lg-3 p-0">
@@ -483,11 +587,27 @@
           <div class="col-lg-4 my-3 my-lg-0 py-3">
             <div>
               <h5>Fórmula:</h5>
-              <img
-                class="img-t mb-4"
-                src="@/assets/curso/temas/59.png"
-                alt="la imagen muestra la fórmula para calcular el coeficiente de variación (CV), que es una medida de dispersión relativa. Específicamente: CV = (σ / x̄) x 100. σ representa la desviación estándar del conjunto de datos. x̄ representa la media aritmética del conjunto de datos. "
-              />
+              <div
+                style="border: 2px solid green; background: white; padding: 10px; display: inline-block; margin-bottom: 20px;"
+              >
+                <math
+                  xmlns="http://www.w3.org/1998/Math/MathML"
+                  style="font-size: 2rem;"
+                >
+                  <mi>C</mi>
+                  <mi>V</mi>
+                  <mo>=</mo>
+                  <mfrac>
+                    <mi>σ</mi>
+                    <mover>
+                      <mi>x</mi>
+                      <mo>¯</mo>
+                    </mover>
+                  </mfrac>
+                  <mo>×</mo>
+                  <mn>100</mn>
+                </math>
+              </div>
               <div class="brad p-3 h-100">
                 <p class="mb-3"><b>Donde:</b></p>
                 <ul class="lista-ul--color fa-ul">
@@ -495,15 +615,16 @@
                     <i class="fas fa-check v1"> </i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/60.png"
-                          alt="la imagen muestra la fórmula para calcular el coeficiente de variación (CV), que es una medida de dispersión relativa. Específicamente: CV = (σ / x̄) x 100. σ representa la desviación estándar del conjunto de datos. x̄ representa la media aritmética del conjunto de datos. "
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem;"
+                        >
+                          <mi>σ</mi>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">
-                          es la desviaci&oacute;n est&aacute;ndar.
+                          es la desviacion estíndar.
                         </p>
                       </div>
                     </div>
@@ -512,11 +633,15 @@
                     <i class="fas fa-check v1"> </i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/61.png"
-                          alt="la imagen muestra la fórmula para calcular el coeficiente de variación (CV), que es una medida de dispersión relativa. Específicamente: CV = (σ / x̄) x 100. σ representa la desviación estándar del conjunto de datos. x̄ representa la media aritmética del conjunto de datos. "
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem;"
+                        >
+                          <mover>
+                            <mi>x</mi>
+                            <mo>¯</mo>
+                          </mover>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">es cada valor del conjunto de datos.</p>
@@ -534,17 +659,16 @@
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span
-                    >Permite comparar la dispersi&oacute;n de diferentes
-                    conjuntos de datos, incluso cuando tienen unidades o escalas
+                    >Permite comparar la dispersion de diferentes conjuntos de
+                    datos, incluso cuando tienen unidades o escalas
                     diferentes.</span
                   >
                 </li>
                 <li class="mb-3">
                   <i class="fas fa-check v1"> </i
                   ><span
-                    >Un coeficiente de variaci&oacute;n m&aacute;s alto indica
-                    una mayor dispersi&oacute;n en relaci&oacute;n con la
-                    media.</span
+                    >Un coeficiente de variacion mís alto indica una mayor
+                    dispersion en relacion con la media.</span
                   >
                 </li>
               </ul>
@@ -557,7 +681,7 @@
       </div>
       <section>
         <div id="t_2_6" class="titulo-segundo color-acento-botones">
-          <h2>2.6&#x9;Rango intercuart&iacute;lico</h2>
+          <h2>2.6&#x9;Rango intercuartílico</h2>
         </div>
         <div class="row justify-content-center align-items-center mb-5">
           <div class="col-lg-auto">
@@ -565,23 +689,39 @@
           </div>
           <div class="col pt-lg-0 pt-md-4">
             <p class="mb-0">
-              El <b>rango intercuart&iacute;lico (IQR)</b> mide la
-              dispersi&oacute;n de los datos entre el primer cuartil (Q1Q_1Q1) y
-              el tercer cuartil (Q3Q_3Q3), es decir, la dispersi&oacute;n del 50
-              % central de los datos. Es una medida robusta de
-              dispersi&oacute;n, ya que no se ve afectada por valores
-              at&iacute;picos.
+              El <b>rango intercuartílico (IQR)</b> mide la dispersion de los
+              datos entre el primer cuartil (Q1Q_1Q1) y el tercer cuartil
+              (Q3Q_3Q3), es decir, la dispersion del 50 % central de los datos.
+              Es una medida robusta de dispersion, ya que no se ve afectada por
+              valores atípicos.
             </p>
           </div>
         </div>
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-5 my-3 bg17 p-3 brad">
             <h5>Fórmula:</h5>
-            <img
-              class="img-t mb-4"
-              src="@/assets/curso/temas/63.png"
-              alt="la imagen muestra la fórmula para calcular el rango intercuartílico (IQR):IQR = Q3 - Q1. Q3 es el tercer cuartil, que representa el valor por debajo del cual se encuentra el 75 % de los datos. Q1 es el primer cuartil, que representa el valor por debajo del cual se encuentra el 25 % de los datos. El rango intercuartílico se calcula restando el primer cuartil (Q1) del tercer cuartil (Q3). Esta medida de dispersión nos informa sobre el rango de valores centrales, excluyendo los valores más altos y más bajos (los extremos)."
-            />
+            <div
+              style="border: 2px solid green; background: white; padding: 10px; display: inline-block; margin-bottom: 15px;"
+            >
+              <math
+                xmlns="http://www.w3.org/1998/Math/MathML"
+                style="font-size: 2rem;"
+              >
+                <mi>I</mi>
+                <mi>Q</mi>
+                <mi>R</mi>
+                <mo>=</mo>
+                <msub>
+                  <mi>Q</mi>
+                  <mn>3</mn>
+                </msub>
+                <mo>−</mo>
+                <msub>
+                  <mi>Q</mi>
+                  <mn>1</mn>
+                </msub>
+              </math>
+            </div>
             <div class="brad p-3 h-100">
               <p class="mb-3"><b>Donde:</b></p>
               <ul class="lista-ul--color fa-ul">
@@ -589,11 +729,15 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/64.png"
-                        alt="la imagen muestra la fórmula para calcular el rango intercuartílico (IQR):IQR = Q3 - Q1. Q3 es el tercer cuartil, que representa el valor por debajo del cual se encuentra el 75 % de los datos. Q1 es el primer cuartil, que representa el valor por debajo del cual se encuentra el 25 % de los datos. El rango intercuartílico se calcula restando el primer cuartil (Q1) del tercer cuartil (Q3). Esta medida de dispersión nos informa sobre el rango de valores centrales, excluyendo los valores más altos y más bajos (los extremos)."
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem;"
+                      >
+                        <msub>
+                          <mi>Q</mi>
+                          <mn>3</mn>
+                        </msub>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">
@@ -606,11 +750,15 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/65.png"
-                        alt="la imagen muestra la fórmula para calcular el rango intercuartílico (IQR):IQR = Q3 - Q1. Q3 es el tercer cuartil, que representa el valor por debajo del cual se encuentra el 75 % de los datos. Q1 es el primer cuartil, que representa el valor por debajo del cual se encuentra el 25 % de los datos. El rango intercuartílico se calcula restando el primer cuartil (Q1) del tercer cuartil (Q3). Esta medida de dispersión nos informa sobre el rango de valores centrales, excluyendo los valores más altos y más bajos (los extremos)."
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem;"
+                      >
+                        <msub>
+                          <mi>Q</mi>
+                          <mn>1</mn>
+                        </msub>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">
@@ -630,9 +778,8 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"> </i
                     ><span
-                      >El rango intercuart&iacute;lico es m&aacute;s robusto que
-                      la varianza o la desviaci&oacute;n est&aacute;ndar, ya que
-                      excluye los extremos.</span
+                      >El rango intercuartílico es mís robusto que la varianza o
+                      la desviacion estíndar, ya que excluye los extremos.</span
                     >
                   </li>
                 </ul>
@@ -642,9 +789,8 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"> </i
                     ><span
-                      >Es &uacute;til cuando se quiere analizar la
-                      dispersi&oacute;n central sin la influencia de valores
-                      extremos o at&iacute;picos.</span
+                      >Es útil cuando se quiere analizar la dispersion central
+                      sin la influencia de valores extremos o atípicos.</span
                     >
                   </li>
                 </ul>
@@ -658,30 +804,50 @@
       </div>
       <section>
         <div id="t_2_7" class="titulo-segundo color-acento-botones">
-          <h2>2.7&#x9;Amplitud de variaci&oacute;n</h2>
+          <h2>2.7&#x9;Amplitud de variacion</h2>
         </div>
         <p class="mb-5">
-          La <b>amplitud de variaci&oacute;n</b> (rango total) es otra forma de
-          medir la dispersi&oacute;n, y representa la diferencia entre el valor
-          m&aacute;ximo y el m&iacute;nimo de un conjunto de datos.
+          La <b>amplitud de variacion</b> (rango total) es otra forma de medir
+          la dispersion, y representa la diferencia entre el valor míximo y el
+          mínimo de un conjunto de datos.
         </p>
         <div class="row justify-content-center">
           <div class="col-lg-7 my-3 order-1">
             <div class="bg7 brad p-4">
               <h5 class="text-white">Fórmula:</h5>
-              <img
-                class="img-t mb-4"
-                src="@/assets/curso/temas/63.png"
-                alt="la imagen corresponde al rango intercuartílico (IQR), que mide la dispersión de los datos en un conjunto estadístico. La fórmula es: IQR=Q3 - Q1. "
-              />
+              <div
+                style="border: 2px solid green; background: white; padding: 10px; display: inline-block;"
+              >
+                <math
+                  xmlns="http://www.w3.org/1998/Math/MathML"
+                  style="font-size: 2rem;"
+                  display="block"
+                >
+                  <mstyle displaystyle="true">
+                    <mi>I</mi>
+                    <mi>Q</mi>
+                    <mi>R</mi>
+                    <mo>=</mo>
+                    <msub>
+                      <mi>Q</mi>
+                      <mn>3</mn>
+                    </msub>
+                    <mo>−</mo>
+                    <msub>
+                      <mi>Q</mi>
+                      <mn>1</mn>
+                    </msub>
+                  </mstyle>
+                </math>
+              </div>
               <p class="mb-4 text-white"><b>Propiedades:</b></p>
               <div class="bgw p-3 brad mb-3">
                 <ul class="lista-ul--color fa-ul">
                   <li class="mb-3">
                     <i class="fas fa-check v1"> </i
                     ><span class="mb-0"
-                      >Es una medida simple que ofrece una indicaci&oacute;n
-                      r&aacute;pida de la variabilidad.</span
+                      >Es una medida simple que ofrece una indicacion rípida de
+                      la variabilidad.</span
                     >
                   </li>
                 </ul>
@@ -691,8 +857,8 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"> </i
                     ><span class="mb-0"
-                      >No toma en cuenta c&oacute;mo se distribuyen los datos
-                      entre el valor m&aacute;ximo y el m&iacute;nimo.</span
+                      >No toma en cuenta como se distribuyen los datos entre el
+                      valor míximo y el mínimo.</span
                     >
                   </li>
                 </ul>
@@ -715,7 +881,7 @@
       </div>
       <section>
         <div id="t_2_8" class="titulo-segundo color-acento-botones">
-          <h2>2.8&#x9;Coeficiente de variaci&oacute;n</h2>
+          <h2>2.8&#x9;Coeficiente de variacion</h2>
         </div>
       </section>
       <div
@@ -729,9 +895,9 @@
         ></div>
         <div class="bloque-texto-g__texto p-4">
           <p class="mb-0">
-            El coeficiente de variaci&oacute;n es una medida que estandariza la
-            desviaci&oacute;n est&aacute;ndar respecto a la media, expresando la
-            dispersi&oacute;n en t&eacute;rminos porcentuales.
+            El coeficiente de variacion es una medida que estandariza la
+            desviacion estíndar respecto a la media, expresando la dispersion en
+            tírminos porcentuales.
           </p>
         </div>
       </div>

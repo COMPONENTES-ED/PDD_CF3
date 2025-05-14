@@ -1,4 +1,4 @@
-<template>
+<template lenguaje="pug">
   <div class="curso-main-container pb-3">
     <BannerInterno></BannerInterno>
     <div class="container tarjeta tarjeta--blanca p-4 p-md-5 mb-5">
@@ -39,12 +39,12 @@
         <h2>1.1 Media aritmética</h2>
       </div>
       <p class="mb-5">
-        La <b>media aritm&eacute;tica</b>, tambi&eacute;n conocida simplemente
-        como media, es la medida de tendencia central m&aacute;s utilizada. Se
-        calcula sumando todos los valores de los datos y dividiendo el resultado
-        entre el n&uacute;mero total de observaciones. La media es especialmente
-        &uacute;til cuando los datos est&aacute;n distribuidos de manera
-        sim&eacute;trica, ya que refleja el valor promedio del conjunto.
+        La <b>media aritmética</b>, también conocida simplemente como media, es
+        la medida de tendencia central más utilizada. Se calcula sumando todos
+        los valores de los datos y dividiendo el resultado entre el número total
+        de observaciones. La media es especialmente útil cuando los datos están
+        distribuidos de manera simétrica, ya que refleja el valor promedio del
+        conjunto.
       </p>
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-3 my-3">
@@ -55,11 +55,36 @@
         </div>
         <div class="col-lg-7 my-3">
           <h5>Formula:</h5>
-          <img
-            class="img-t mb-4"
-            src="@/assets/curso/temas/f-1.png"
-            alt="Texto alternativo: La imagen muestra una representación visual educativa para calcular la media aritmética. La media aritmética (representada por la letra x con una barra encima) se calcula sumando todos los valores (xi) y dividiendo entre el número total de valores (n). La sumatoria de los valores (Σxi) representa la suma de todos los valores individuales. n representa el número total de valores o observaciones en el conjunto de datos. Al dividir la sumatoria de los valores entre el número total de valores, se obtiene la media aritmética, que es la medida de tendencia central que representa el valor promedio del conjunto."
-          />
+          <math
+            xmlns="http://www.w3.org/1998/Math/MathML"
+            style="font-size: 3rem"
+          >
+            <mrow>
+              <mover>
+                <mi>x</mi>
+                <mo>¯</mo>
+              </mover>
+              <mo>=</mo>
+              <mfrac>
+                <mrow>
+                  <munderover>
+                    <mo>∑</mo>
+                    <mrow>
+                      <mi>i</mi>
+                      <mo>=</mo>
+                      <mn>1</mn>
+                    </mrow>
+                    <mi>n</mi>
+                  </munderover>
+                  <msub>
+                    <mi>x</mi>
+                    <mi>i</mi>
+                  </msub>
+                </mrow>
+                <mi>n</mi>
+              </mfrac>
+            </mrow>
+          </math>
           <div class="brad p-3 h-100">
             <div class="mb-3">
               <b>Donde:</b>
@@ -68,14 +93,20 @@
                   <i class="fas fa-check v1"> </i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/6.png"
-                        alt=""
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <mrow>
+                          <mover>
+                            <mi>x</mi>
+                            <mo>¯</mo>
+                          </mover>
+                        </mrow>
+                      </math>
                     </div>
                     <div class="col">
-                      <p class="mb-0">es la medida aritm&eacute;tica.</p>
+                      <p class="mb-0">es la medida aritmética.</p>
                     </div>
                   </div>
                 </li>
@@ -83,11 +114,17 @@
                   <i class="fas fa-check v1"></i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/7.png"
-                        alt=""
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <mrow>
+                          <msub>
+                            <mi>x</mi>
+                            <mi>i</mi>
+                          </msub>
+                        </mrow>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">
@@ -101,15 +138,18 @@
                   <i class="fas fa-check v1"></i>
                   <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                      <img
-                        class="img-a img-t"
-                        src="@/assets/curso/temas/8.png"
-                        alt=""
-                      />
+                      <math
+                        xmlns="http://www.w3.org/1998/Math/MathML"
+                        style="font-size: 2rem"
+                      >
+                        <mrow>
+                          <mi>n</mi>
+                        </mrow>
+                      </math>
                     </div>
                     <div class="col">
                       <p class="mb-0">
-                        es el n&uacute;mero total de observaciones.
+                        es el número total de observaciones.
                       </p>
                     </div>
                   </div>
@@ -122,13 +162,13 @@
             <ul class="lista-ul--color fa-ul">
               <li class="mb-3">
                 <i class="fas fa-check v1"></i
-                ><span>Es f&aacute;cil de calcular y comprender.</span>
+                ><span>Es fácil de calcular y comprender.</span>
               </li>
               <li class="mb-3">
                 <i class="fas fa-check v1"></i
                 ><span
-                  >Afectada por valores at&iacute;picos (<em>outliers</em>), lo
-                  que puede distorsionar la interpretaci&oacute;n.</span
+                  >Afectada por valores atípicos (<em>outliers</em>), lo que
+                  puede distorsionar la interpretación.</span
                 >
               </li>
             </ul>
@@ -157,8 +197,8 @@
               partes iguales, de tal manera que el 50 % de las observaciones son
               menores o iguales a la mediana, y el 50 % son mayores o iguales a
               ella. A diferencia de la media, la mediana no se ve afectada por
-              valores at&iacute;picos, lo que la convierte en una medida
-              m&aacute;s robusta en distribuciones asim&eacute;tricas.
+              valores atípicos, lo que la convierte en una medida más robusta en
+              distribuciones asimétricas.
             </p>
             <p></p>
           </div>
@@ -173,22 +213,22 @@
                 />
                 <div class="row justify-content-center mb-4">
                   <p class="col-lg-auto mb-4 bg11 text-white px-4 text-center">
-                    <b>C&aacute;lculo:</b>
+                    <b>Cálculo:</b>
                   </p>
                 </div>
                 <ul class="lista-ul--color fa-ul">
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span
-                      >Si el n&uacute;mero de observaciones es impar, la mediana
-                      es el valor que ocupa la posici&oacute;n central.</span
+                      >Si el número de observaciones es impar, la mediana es el
+                      valor que ocupa la posición central.</span
                     >
                   </li>
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span
-                      >Si el n&uacute;mero de observaciones es par, la mediana
-                      es el promedio de los dos valores centrales.</span
+                      >Si el número de observaciones es par, la mediana es el
+                      promedio de los dos valores centrales.</span
                     >
                   </li>
                 </ul>
@@ -212,14 +252,13 @@
                 <ul class="lista-ul--color fa-ul">
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
-                    ><span>No est&aacute; afectada por valores extremos.</span>
+                    ><span>No está afectada por valores extremos.</span>
                   </li>
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span
-                      >Es &uacute;til para distribuciones sesgadas, ya que
-                      ofrece una representaci&oacute;n m&aacute;s precisa del
-                      valor central.</span
+                      >Es útil para distribuciones sesgadas, ya que ofrece una
+                      representación más precisa del valor central.</span
                     >
                   </li>
                 </ul>
@@ -243,12 +282,11 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 my-3 order-1">
             <p>
-              La <b>moda</b> es el valor o los valores que m&aacute;s se repiten
-              en un conjunto de datos. Es &uacute;til cuando se desea
-              identificar el valor m&aacute;s frecuente en la
-              distribuci&oacute;n. Puede haber distribuciones
+              La <b>moda</b> es el valor o los valores que más se repiten en un
+              conjunto de datos. Es útil cuando se desea identificar el valor
+              más frecuente en la distribución. Puede haber distribuciones
               <b>unimodales</b> (con una moda), <b>bimodales</b> (con dos modas)
-              o <b>multimodales</b> (con m&aacute;s de dos modas).
+              o <b>multimodales</b> (con más de dos modas).
             </p>
             <div class="bg7 brad p-4">
               <p class="mb-4 text-white"><b>Propiedades:</b></p>
@@ -257,7 +295,7 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span class="mb-0"
-                      >Es la &uacute;nica medida de tendencia central que puede
+                      >Es la única medida de tendencia central que puede
                       aplicarse a variables cualitativas.</span
                     >
                   </li>
@@ -292,15 +330,15 @@
       </div>
       <section>
         <div id="t_1_4" class="titulo-segundo color-acento-botones">
-          <h2>1.4&#x9;Media geom&eacute;trica</h2>
+          <h2>1.4&#x9;Media geométrica</h2>
         </div>
         <p class="mb-5">
-          La <b>media geom&eacute;trica</b> es una medida de tendencia central
-          que se utiliza principalmente para conjuntos de datos positivos que
-          est&aacute;n relacionados multiplicativamente, como tasas de
-          crecimiento o porcentajes de cambio. Se calcula multiplicando todos
-          los valores y extrayendo la ra&iacute;z en&eacute;sima del producto,
-          donde n es el n&uacute;mero total de observaciones.
+          La <b>media geométrica</b> es una medida de tendencia central que se
+          utiliza principalmente para conjuntos de datos positivos que están
+          relacionados multiplicativamente, como tasas de crecimiento o
+          porcentajes de cambio. Se calcula multiplicando todos los valores y
+          extrayendo la raíz enésima del producto, donde n es el número total de
+          observaciones.
         </p>
         <div class="row justify-content-center">
           <div class="col-lg-4 my-3">
@@ -315,7 +353,51 @@
           <div class="col-lg-8 my-3">
             <div class="bg15 brad br-d h-100 p-4">
               <h5>Fórmula:</h5>
-              <img class="img-t mb-4" src="@/assets/curso/temas/15.png" />
+              <math
+                xmlns="http://www.w3.org/1998/Math/MathML"
+                style="font-size: 2rem"
+              >
+                <mrow>
+                  <!-- x̄g -->
+                  <msub>
+                    <mover>
+                      <mi>x</mi>
+                      <mo>¯</mo>
+                    </mover>
+                    <mi>g</mi>
+                  </msub>
+
+                  <mo>=</mo>
+
+                  <!-- ( ∏ xi )^(1/n) -->
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mrow>
+                        <munderover>
+                          <mo>&#x220F;</mo>
+                          <!-- Product symbol -->
+                          <mrow>
+                            <mi>i</mi>
+                            <mo>=</mo>
+                            <mn>1</mn>
+                          </mrow>
+                          <mi>n</mi>
+                        </munderover>
+                        <msub>
+                          <mi>x</mi>
+                          <mi>i</mi>
+                        </msub>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                    <mfrac>
+                      <mn>1</mn>
+                      <mi>n</mi>
+                    </mfrac>
+                  </msup>
+                </mrow>
+              </math>
               <div>
                 <p class="mb-3"><b>Donde:</b></p>
                 <ul class="lista-ul--color fa-ul">
@@ -323,14 +405,23 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/16.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem"
+                        >
+                          <mrow>
+                            <msub>
+                              <mover>
+                                <mi>x</mi>
+                                <mo>¯</mo>
+                              </mover>
+                              <mi> g</mi>
+                            </msub>
+                          </mrow>
+                        </math>
                       </div>
                       <div class="col">
-                        <p class="mb-0">es la media geom&eacute;trica.</p>
+                        <p class="mb-0">es la media geométrica.</p>
                       </div>
                     </div>
                   </li>
@@ -338,11 +429,17 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/17.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem"
+                        >
+                          <mrow>
+                            <msub>
+                              <mi>x</mi>
+                              <mi>i</mi>
+                            </msub>
+                          </mrow>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">
@@ -355,15 +452,18 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/18.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem"
+                        >
+                          <msub>
+                            <mi>n</mi>
+                          </msub>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">
-                          es el n&uacute;mero total de observaciones.
+                          es el número total de observaciones.
                         </p>
                       </div>
                     </div>
@@ -375,17 +475,16 @@
                 <li class="mb-3">
                   <i class="fas fa-check v1"></i
                   ><span class="mb-0"
-                    >Es adecuada para datos que var&iacute;an en
-                    proporci&oacute;n, como en el crecimiento de una
-                    poblaci&oacute;n o el rendimiento de una
-                    inversi&oacute;n.</span
+                    >Es adecuada para datos que varían en proporción, como en el
+                    crecimiento de una población o el rendimiento de una
+                    inversión.</span
                   >
                 </li>
                 <li class="mb-3">
                   <i class="fas fa-check v1"></i
                   ><span class="mb-0"
                     >Menos sensible a valores extremos que la media
-                    aritm&eacute;tica.</span
+                    aritmética.</span
                   >
                 </li>
               </ul>
@@ -401,17 +500,66 @@
           <h2>1.5&#x9;Media ponderada</h2>
         </div>
         <p class="mb-5">
-          La <b>media ponderada</b> es una variante de la media
-          aritm&eacute;tica en la que cada valor del conjunto de datos se
-          multiplica por un peso espec&iacute;fico que refleja su importancia
-          relativa. La media ponderada se usa cuando algunos valores tienen
-          mayor relevancia o peso en el an&aacute;lisis que otros.
+          La <b>media ponderada</b> es una variante de la media aritmética en la
+          que cada valor del conjunto de datos se multiplica por un peso
+          específico que refleja su importancia relativa. La media ponderada se
+          usa cuando algunos valores tienen mayor relevancia o peso en el
+          análisis que otros.
         </p>
         <div class="row justify-content-center">
           <div class="col-lg-4 my-3">
             <div class="bg7 brad h-100 p-4">
               <h5 class="text-white">Fórmula:</h5>
-              <img class="img-t mb-4" src="@/assets/curso/temas/20.png" />
+              <div
+                class="p-3"
+                style="background-color:white; border: solid 2px green"
+              >
+                <math
+                  xmlns="http://www.w3.org/1998/Math/MathML"
+                  style="font-size: 2rem"
+                >
+                  <mrow>
+                    <!-- x̄p -->
+                    <msub>
+                      <mover>
+                        <mi>x</mi>
+                        <mo>¯</mo>
+                      </mover>
+                      <mi>p</mi>
+                    </msub>
+
+                    <mo>=</mo>
+
+                    <!-- Fracción -->
+                    <mfrac>
+                      <!-- Numerador: sumatoria de w_i * x_i -->
+                      <mrow>
+                        <munderover>
+                          <mo>&#x2211;</mo>
+                          <mrow> <mi>i</mi><mo>=</mo><mn>1</mn> </mrow>
+                          <mi>n</mi>
+                        </munderover>
+                        <mrow>
+                          <msub><mi>w</mi><mi>i</mi></msub>
+                          <mo>&#x2062;</mo>
+                          <!-- Espaciado implícito (función implícita) -->
+                          <msub><mi>x</mi><mi>i</mi></msub>
+                        </mrow>
+                      </mrow>
+
+                      <!-- Denominador: sumatoria de w_i -->
+                      <mrow>
+                        <munderover>
+                          <mo>&#x2211;</mo>
+                          <mrow> <mi>i</mi><mo>=</mo><mn>1</mn> </mrow>
+                          <mi>n</mi>
+                        </munderover>
+                        <msub><mi>w</mi><mi>i</mi></msub>
+                      </mrow>
+                    </mfrac>
+                  </mrow>
+                </math>
+              </div>
               <div>
                 <p class="mb-3"><b class="text-white">Donde:</b></p>
                 <ul class="lista-ul--color fa-ul">
@@ -419,11 +567,20 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/21.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem; color:white"
+                        >
+                          <mrow>
+                            <msub>
+                              <mover>
+                                <mi>x</mi>
+                                <mo>¯</mo>
+                              </mover>
+                              <mi> p</mi>
+                            </msub>
+                          </mrow>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0 text-white">es la media ponderada.</p>
@@ -434,11 +591,17 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/22.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem; color: white"
+                        >
+                          <mrow>
+                            <msub>
+                              <mi>w</mi>
+                              <mi>i</mi>
+                            </msub>
+                          </mrow>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0 text-white">
@@ -446,11 +609,17 @@
                         </p>
                       </div>
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/23.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem; color: white"
+                        >
+                          <mrow>
+                            <msub>
+                              <mi>x</mi>
+                              <mi>i</mi>
+                            </msub>
+                          </mrow>
+                        </math>
                       </div>
                     </div>
                   </li>
@@ -459,15 +628,18 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/24.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 2rem; color: white"
+                        >
+                          <mrow>
+                            <mi>n</mi>
+                          </mrow>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0 text-white">
-                          es el n&uacute;mero total de observaciones.
+                          es el número total de observaciones.
                         </p>
                       </div>
                     </div>
@@ -488,14 +660,14 @@
                 <li class="mb-3">
                   <i class="fas fa-check v1"></i
                   ><span
-                    >Permite dar m&aacute;s relevancia a ciertos valores
-                    seg&uacute;n su importancia o frecuencia.</span
+                    >Permite dar más relevancia a ciertos valores según su
+                    importancia o frecuencia.</span
                   >
                 </li>
                 <li class="mb-3">
                   <i class="fas fa-check v1"></i
                   ><span
-                    >Es especialmente &uacute;til cuando se necesita reflejar la
+                    >Es especialmente útil cuando se necesita reflejar la
                     influencia desigual de los datos.</span
                   >
                 </li>
@@ -517,11 +689,10 @@
           </div>
           <div class="col pt-lg-0 pt-md-4">
             <p class="mb-0">
-              La <b>media recortada</b> es una versi&oacute;n modificada de la
-              media aritm&eacute;tica, en la que se eliminan los valores
-              m&aacute;s extremos (los mayores y menores) antes de calcular la
-              media. Esto permite reducir el efecto de los valores
-              at&iacute;picos en el c&aacute;lculo.
+              La <b>media recortada</b> es una versión modificada de la media
+              aritmética, en la que se eliminan los valores más extremos (los
+              mayores y menores) antes de calcular la media. Esto permite
+              reducir el efecto de los valores atípicos en el cálculo.
             </p>
           </div>
         </div>
@@ -535,7 +706,7 @@
                 />
                 <div class="row justify-content-center mb-4">
                   <p class="col-lg-auto mb-4 bg11 text-white px-4 text-center">
-                    <b>C&aacute;lculo:</b>
+                    <b>Cálculo:</b>
                   </p>
                 </div>
                 <ul class="lista-ul--color fa-ul">
@@ -543,13 +714,13 @@
                     <i class="fas fa-check v1"></i
                     ><span
                       >Se elimina un porcentaje predeterminado de los valores
-                      m&aacute;s altos y m&aacute;s bajos.</span
+                      más altos y más bajos.</span
                     >
                   </li>
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span
-                      >Se calcula la media aritm&eacute;tica de los valores
+                      >Se calcula la media aritmética de los valores
                       restantes.</span
                     >
                   </li>
@@ -576,15 +747,14 @@
                     <i class="fas fa-check v1"></i
                     ><span
                       >Proporciona una medida de tendencia central menos
-                      sensible a valores at&iacute;picos.</span
+                      sensible a valores atípicos.</span
                     >
                   </li>
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span
-                      >Es &uacute;til en situaciones donde los datos contienen
-                      valores extremos que podr&iacute;an distorsionar la
-                      media.</span
+                      >Es útil en situaciones donde los datos contienen valores
+                      extremos que podrían distorsionar la media.</span
                     >
                   </li>
                 </ul>
@@ -611,10 +781,9 @@
         <p class="mb-5">
           La <b>trimedia</b> es una medida de tendencia central que toma en
           cuenta tanto la mediana como los cuartiles (primer y tercer cuartil)
-          del conjunto de datos. Es una medida robusta que combina
-          informaci&oacute;n de diferentes puntos de la distribuci&oacute;n para
-          proporcionar un resumen m&aacute;s equilibrado de la tendencia
-          central.
+          del conjunto de datos. Es una medida robusta que combina información
+          de diferentes puntos de la distribución para proporcionar un resumen
+          más equilibrado de la tendencia central.
         </p>
         <div class="row justify-content-center">
           <div class="col-lg-5 my-3">
@@ -629,7 +798,33 @@
           <div class="col-lg-7 my-3">
             <div>
               <h5>Fórmula:</h5>
-              <img class="img-t mb-4" src="@/assets/curso/temas/30.png" />
+              <math
+                xmlns="http://www.w3.org/1998/Math/MathML"
+                style="font-size: 1.5rem"
+              >
+                <mrow>
+                  <mi>Trimedia</mi>
+                  <mo>=</mo>
+                  <mfrac>
+                    <mrow>
+                      <msub>
+                        <mi>Q</mi>
+                        <mn>1</mn>
+                      </msub>
+                      <mo>+</mo>
+                      <mn>2</mn>
+                      <mo>&#x2062;</mo>
+                      <mi>Mediana</mi>
+                      <mo>+</mo>
+                      <msub>
+                        <mi>Q</mi>
+                        <mn>3</mn>
+                      </msub>
+                    </mrow>
+                    <mn>4</mn>
+                  </mfrac>
+                </mrow>
+              </math>
               <div>
                 <p class="mb-3"><b>Donde:</b></p>
                 <ul class="lista-ul--color fa-ul">
@@ -637,11 +832,15 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/31.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 1rem"
+                        >
+                          <msub>
+                            <mi>Q</mi>
+                            <mn>1</mn>
+                          </msub>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">
@@ -654,11 +853,15 @@
                     <i class="fas fa-check v1"></i>
                     <div class="row justify-content-center align-items-center">
                       <div class="col-auto">
-                        <img
-                          class="img-a img-t"
-                          src="@/assets/curso/temas/32.png"
-                          alt=""
-                        />
+                        <math
+                          xmlns="http://www.w3.org/1998/Math/MathML"
+                          style="font-size: 1rem"
+                        >
+                          <msub>
+                            <mi>Q</mi>
+                            <mn>3</mn>
+                          </msub>
+                        </math>
                       </div>
                       <div class="col">
                         <p class="mb-0">
@@ -682,14 +885,14 @@
                     <i class="fas fa-check v1"></i
                     ><span
                       >Proporciona una medida que tiene en cuenta tanto la
-                      dispersi&oacute;n como el centro de los datos.</span
+                      dispersión como el centro de los datos.</span
                     >
                   </li>
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span
-                      >Es menos sensible a los valores at&iacute;picos que la
-                      media aritm&eacute;tica.
+                      >Es menos sensible a los valores atípicos que la media
+                      aritmética.
                     </span>
                   </li>
                 </ul>

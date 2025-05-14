@@ -4,4 +4,8 @@
     "source.fixAll": "explicit"
   },
   "eslint.run": "onSave",
+  "[dart]": {
+    "editor.formatOnSave": true
+  }
+  
 }

@@ -20,11 +20,11 @@
             </div>
             <div class="col pt-lg-0 pt-md-4">
               <p class="mb-0">
-                Los gr&aacute;ficos estad&iacute;sticos son representaciones
-                visuales de datos que permiten observar tendencias, patrones y
-                relaciones dentro de un conjunto de datos. Son herramientas
-                poderosas para simplificar y comunicar resultados complejos de
-                manera clara y concisa.
+                Los gráficos estadísticos son representaciones visuales de datos
+                que permiten observar tendencias, patrones y relaciones dentro
+                de un conjunto de datos. Son herramientas poderosas para
+                simplificar y comunicar resultados complejos de manera clara y
+                concisa.
               </p>
             </div>
           </div>
@@ -35,24 +35,24 @@
       </div>
       <section>
         <div id="t_5_1" class="titulo-segundo color-acento-botones">
-          <h2>5.1&#x9;Tipos de gr&aacute;ficos</h2>
+          <h2>5.1&#x9;Tipos de gráficos</h2>
         </div>
         <p>
-          Existen varios tipos de gr&aacute;ficos que se pueden utilizar
-          seg&uacute;n el tipo de datos y el objetivo del an&aacute;lisis.
+          Existen varios tipos de gráficos que se pueden utilizar según el tipo
+          de datos y el objetivo del análisis.
         </p>
         <div class="titulo-sexto color-acento-contenido aos-init mt-5">
           <h5>Tabla 1.</h5>
-          <span>Tipos de gr&aacute;ficos</span>
+          <span>Tipos de gráficos</span>
         </div>
         <div class="tabla-a color-acento-botones mb-5">
           <table>
             <thead class="border-0">
               <tr class="text-center">
-                <th style="background-color: #3ba935">Gr&aacute;fico</th>
-                <th style="background-color: #3ba935">Descripci&oacute;n</th>
+                <th style="background-color: #3ba935">Gráfico</th>
+                <th style="background-color: #3ba935">Descripción</th>
                 <th style="background-color: #3ba935">
-                  Caracter&iacute;sticas
+                  Características
                 </th>
                 <th style="background-color: #3ba935">Aplicaciones</th>
               </tr>
@@ -126,7 +126,7 @@
               <tr>
                 <td class="fw-bold">Gráfico circular</td>
                 <td>
-                  También llamado gráfico de pastel muestra la proporción o
+                  También llamado gráfico de pastel, muestra la proporción o
                   porcentaje de cada categoría respecto al total mediante
                   sectores proporcionales.
                 </td>
@@ -228,14 +228,13 @@
       <section>
         <div id="t_5_2" class="titulo-segundo color-acento-botones">
           <h2>
-            5.2&#x9;Elecci&oacute;n del gr&aacute;fico adecuado seg&uacute;n el
-            tipo de datos
+            5.2&#x9;Elección del gráfico adecuado según el tipo de datos
           </h2>
         </div>
         <p>
-          La elecci&oacute;n del gr&aacute;fico adecuado depende del tipo de
-          datos y del objetivo del an&aacute;lisis. Algunas pautas generales
-          para seleccionar el gr&aacute;fico correcto son:
+          La elección del gráfico adecuado depende del tipo de datos y del
+          objetivo del análisis. Algunas pautas generales para seleccionar el
+          gráfico correcto son:
         </p>
         <div class="row justify-content-center">
           <div class="col-lg-8 my-3">
@@ -250,29 +249,29 @@
                       <li class="mb-3">
                         <i class="fas fa-check v1"></i
                         ><span class="mb-0"
-                          ><b>Datos cualitativos:</b> Gr&aacute;fico de barras o
-                          gr&aacute;fico circular.</span
+                          ><b>Datos cualitativos:</b> Gráfico de barras o
+                          gráfico circular.</span
                         >
                       </li>
                       <li class="mb-3">
                         <i class="fas fa-check v1"></i
                         ><span class="mb-0"
                           ><b>Datos cuantitativos continuos:</b> Histograma,
-                          pol&iacute;gono de frecuencias, ojiva.</span
+                          polígono de frecuencias, ojiva.</span
                         >
                       </li>
                       <li class="mb-3">
                         <i class="fas fa-check v1"></i
                         ><span class="mb-0"
-                          ><b>Comparaci&oacute;n de distribuciones:</b>
+                          ><b>Comparación de distribuciones:</b>
                           <em> Boxplot</em>, histograma.</span
                         >
                       </li>
                       <li class="mb-3">
                         <i class="fas fa-check v1"></i
                         ><span class="mb-0"
-                          ><b>Relaci&oacute;n entre dos variables:</b> Diagrama
-                          de dispersi&oacute;n.</span
+                          ><b>Relación entre dos variables:</b> Diagrama de
+                          dispersión.</span
                         >
                       </li>
                     </ul>
@@ -298,14 +297,13 @@
       <section>
         <div id="t_5_3" class="titulo-segundo color-acento-botones">
           <h2>
-            5.3&#x9;Interpretaci&oacute;n de gr&aacute;ficos estad&iacute;sticos
+            5.3&#x9;Interpretación de gráficos estadísticos
           </h2>
         </div>
         <p class="mb-5">
-          La correcta <b>interpretaci&oacute;n</b> de los gr&aacute;ficos
-          estad&iacute;sticos sirve para extraer conclusiones v&aacute;lidas de
-          los datos. Al interpretar gr&aacute;ficos, es importante prestar
-          atenci&oacute;n a:
+          La correcta <b>interpretación</b> de los gráficos estadísticos sirve
+          para extraer conclusiones válidas de los datos. Al interpretar
+          gráficos, es importante prestar atención a:
         </p>
         <div class="row justify-content-center">
           <div class="col-lg-4 my-lg-0 my-3 j1">
@@ -324,8 +322,8 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span class="mb-0"
-                      ><b>Distribuci&oacute;n:</b> Observar si los datos son
-                      sim&eacute;tricos, sesgados o multimodales.</span
+                      ><b>Distribución:</b> Observar si los datos son
+                      simétricos, sesgados o multimodales.</span
                     >
                   </li>
                 </ul>
@@ -336,7 +334,7 @@
                     <i class="fas fa-check v1"></i
                     ><span class="mb-0"
                       ><b>Tendencias:</b> Identificar patrones ascendentes,
-                      descendentes o c&iacute;clicos en los datos.</span
+                      descendentes o cíclicos en los datos.</span
                     >
                   </li>
                 </ul>
@@ -346,9 +344,8 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span class="mb-0"
-                      ><b>Relaciones:</b> En diagramas de dispersi&oacute;n,
-                      buscar correlaciones o asociaciones entre las
-                      variables.</span
+                      ><b>Relaciones:</b> En diagramas de dispersión, buscar
+                      correlaciones o asociaciones entre las variables.</span
                     >
                   </li>
                 </ul>
@@ -358,8 +355,8 @@
                   <li class="mb-3">
                     <i class="fas fa-check v1"></i
                     ><span class="mb-0"
-                      ><b>Valores at&iacute;picos:</b> Detectar puntos que se
-                      alejan significativamente del resto del conjunto de datos
+                      ><b>Valores atípicos:</b> Detectar puntos que se alejan
+                      significativamente del resto del conjunto de datos
                       (particularmente en <em>boxplots</em>).</span
                     >
                   </li>
