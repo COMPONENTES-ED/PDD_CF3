@@ -586,7 +586,7 @@
                   ><span
                     >La distribución t se utiliza principalmente en pruebas de
                     hipótesis, como la prueba t, cuando se trabaja con muestras
-                    peque&ntilde;as (generalmente n &gt; 30n &gt; 30n &gt;
+                    peque&ntilde;as (generalmente n &lt; 30n &lt; 30n &lt;
                     30).</span
                   >
                 </li>

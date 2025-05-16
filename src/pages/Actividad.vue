@@ -23,10 +23,10 @@
             </h2>
           </div>
           <p class="mb-4">
-            Validar el conocimiento adquirido sobre recolección de datos para
-            análisis. Esto se trabaja con el propósito de buscar una dinámica de
-            razonamiento ágil sobre opciones cerradas y reafirmar un
-            conocimiento declarado dentro del componente.
+            Validar el conocimiento adquirido sobre análisis estadístico de
+            datos y generación de gráficos. Esto se trabaja con el propósito de
+            buscar una dinámica de razonamiento ágil sobre opciones cerradas y
+            reafirmar un conocimiento declarado dentro del componente.
           </p>
           <div class="tarjeta actividad p-3">
             <div class="row justify-content-around align-items-center">

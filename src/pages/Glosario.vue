@@ -49,7 +49,7 @@ export default {
         {
           termino: 'Cuartiles',
           significado:
-            'Valores que dividen un conjunto de datos ordenado en cuatro partes iguales, cada una representando el 25% de la distribución.',
+            'Valores que dividen un conjunto de datos ordenado en cuatro partes iguales, cada una representando el 25 % de la distribución.',
         },
         {
           termino: 'Cálculo de probabilidades',
@@ -59,7 +59,7 @@ export default {
         {
           termino: 'Deciles',
           significado:
-            'Valores que dividen un conjunto de datos en diez partes iguales, cada una representando el 10% de la distribución.',
+            'Valores que dividen un conjunto de datos en diez partes iguales, cada una representando el 10 % de la distribución.',
         },
         {
           termino: 'Desviación estándar',
