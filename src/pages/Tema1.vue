@@ -569,7 +569,8 @@
                       <div class="col-auto">
                         <math
                           xmlns="http://www.w3.org/1998/Math/MathML"
-                          style="font-size: 2rem; color:white"
+                          style="font-size: 2rem; background-color: white"
+                          class="p-2"
                         >
                           <mrow>
                             <msub>
@@ -593,7 +594,8 @@
                       <div class="col-auto">
                         <math
                           xmlns="http://www.w3.org/1998/Math/MathML"
-                          style="font-size: 2rem; color: white"
+                          style="font-size: 2rem; background-color: white"
+                          class="p-2"
                         >
                           <mrow>
                             <msub>
@@ -611,7 +613,8 @@
                       <div class="col-auto">
                         <math
                           xmlns="http://www.w3.org/1998/Math/MathML"
-                          style="font-size: 2rem; color: white"
+                          style="font-size: 2rem; background-color: white"
+                          class="p-2"
                         >
                           <mrow>
                             <msub>
@@ -630,7 +633,8 @@
                       <div class="col-auto">
                         <math
                           xmlns="http://www.w3.org/1998/Math/MathML"
-                          style="font-size: 2rem; color: white"
+                          style="font-size: 2rem; background-color: white"
+                          class="p-2"
                         >
                           <mrow>
                             <mi>n</mi>
