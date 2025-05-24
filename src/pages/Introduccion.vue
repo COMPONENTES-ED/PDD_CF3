@@ -40,6 +40,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/qe9HXvi56T0?si=poW0teGuK5v6U3vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Análisis estadístico de datos y generación de gráficos
 
 </template>
 
