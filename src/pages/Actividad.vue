@@ -23,7 +23,7 @@
             </h2>
           </div>
           <p class="mb-4">
-            Validar el conocimiento adquirido sobre análisis estadístico de
+            Validar el conocimiento adquirido sobre Análisis estadístico de
             datos y generación de gráficos. Esto se trabaja con el propósito de
             buscar una dinámica de razonamiento ágil sobre opciones cerradas y
             reafirmar un conocimiento declarado dentro del componente.
